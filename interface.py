@@ -1,6 +1,6 @@
 import streamlit as st
-from new_job_llm import JobDescLLM
-from gen_form import make_form
+from LLM_tools.job_llm import JobDescLLM
+from Forms.gen_form import make_form
 from mailing import send_email
 
 
@@ -10,21 +10,22 @@ st.set_page_config(
 )
 
 def deploy(job_title, job_purpose, ed_qual, skill_qual, loc, comp):
-    print("im being called")
+    print("Deploying Agent.....")
     job_desc_llm = JobDescLLM(job_title, job_purpose, ed_qual, skill_qual, loc, comp)
     desc = job_desc_llm.get_job_desc()
     forms_link = make_form(job_title, desc, 'form_run.json')
 
-    with open('possible_candiates.txt','r') as f:
+    with open('possible_candidates.txt','r') as f:
         candidates = f.readlines()
 
     for candidate in candidates:
+        print("Mailing to Candidate:", candidate)
         send_email(candidate, f"We are recruiting for: {job_title}", desc+'\n'+'Apply now using:'+forms_link)
 
 
 
 
-st.write("Demo Interface v0.0")
+st.write("Job Posting Agent Interface")
 create,results=st.tabs(['Create post','View results'])
 
 with create:

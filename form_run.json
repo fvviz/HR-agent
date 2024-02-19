@@ -1,19 +1,19 @@
 {
-    "formId": "1ol0UTAEdAFSbjkInvhShfVGEVXcBnMtjNkupoojj8fk",
+    "formId": "1OxGSLafeySEYIN8uhaLM4GpQ-98vww0asYC3-HoBSV4",
     "info": {
-        "title": "bank manager Application",
-        "description": "Job Title: Bank Manager\n\nJob Location: Chennai\n\nSalary: 90k\n\nJob Description:\n\nWe are seeking a highly motivated and skilled individual to join our team as a Bank Manager. The successful candidate will be responsible for managing the daily operations of our bank, ensuring regulatory compliance, overseeing the work of bank employees, and creating a positive environment for both staff and customers.\n\nKey Responsibilities:\n\n1. Oversee the daily operations of the bank and ensure all procedures are performed correctly.\n2. Ensure the bank is compliant with all regulations and laws.\n3. Manage and lead a team of bank employees, providing training and development as needed.\n4. Develop and implement strategies to improve the bank's performance and customer service.\n5. Handle customer complaints and resolve any issues that arise.\n6. Monitor and manage the bank's financial performance, setting and achieving targets as necessary.\n\nEducational Qualifications:\n\nThe candidate must have a minimum of an undergraduate degree in finance, business administration, or a related field.\n\nSkills:\n\n1. Proven experience in bank management or a similar role.\n2. Strong leadership and management skills.\n3. Excellent communication and interpersonal skills.\n4. Strong understanding of banking procedures and laws.\n5. Ability to handle and resolve conflicts.\n6. Excellent problem-solving skills and the ability to make sound decisions.\n\nIf you are a driven individual with a passion for banking and a desire to lead a team, then we would love to hear from you. Apply today to join our team as a Bank Manager.",
+        "title": "bank manager  Application",
+        "description": "Job Title: Bank Manager\n\nJob Description:\n\nWe are currently seeking a highly motivated and experienced Bank Manager to oversee our banking operations in the US. The ideal candidate will be responsible for managing all facets of our bank's operations effectively and efficiently to promote customer satisfaction and achieve our business objectives. This role requires a strong understanding of banking procedures, excellent management skills, and the ability to enhance the bank's performance.\n\nKey Responsibilities:\n\n1. Oversee the bank's financial activities and ensure all operations are in line with set laws and regulations.\n2. Develop and implement effective strategies to enhance the bank's performance.\n3. Manage and lead the bank's staff to deliver top-notch customer service.\n4. Monitor and manage the bank's portfolio to maximize profitability.\n5. Ensure the bank's financial security.\n6. Maintain strong relationships with clients and the community.\n\nEducational Qualifications:\n\n1. A Bachelor's degree in Finance, Business Administration, or a related field is required. A Master's degree or higher will be an added advantage.\n2. Previous experience in a banking managerial role is essential.\n\nSkill Qualifications:\n\n1. Basic coding skills.\n2. Proven experience in managing banks.\n3. Excellent leadership and communication skills.\n4. Strong understanding of banking procedures and laws.\n5. Ability to make sound decisions and solve problems effectively.\n\nLocation: US\n\nSalary: $80,000 per annum\n\nIf you are a proactive leader with a strategic mindset and have a passion for the banking industry, we would like to meet you. Apply today to join our team and help us drive our success.",
         "documentTitle": "Untitled form"
     },
     "revisionId": "00000008",
-    "responderUri": "https://docs.google.com/forms/d/e/1FAIpQLSdwM9-pocfiFj10aArbh9086sAPl0euhAxW2NuyLhiaIjea1A/viewform",
+    "responderUri": "https://docs.google.com/forms/d/e/1FAIpQLSfwy-R69BOZctDHr7vmGG1ZkaQN1XsSaAadJjhkNyjiklzt0w/viewform",
     "items": [
         {
-            "itemId": "08117f3a",
+            "itemId": "19f8359b",
             "title": "CV link(pdf)",
             "questionItem": {
                 "question": {
-                    "questionId": "08f8c620",
+                    "questionId": "4f09aed5",
                     "required": true,
                     "textQuestion": {
                         "paragraph": true
@@ -22,11 +22,11 @@
             }
         },
         {
-            "itemId": "34a4428d",
+            "itemId": "76f1066d",
             "title": "Email Address",
             "questionItem": {
                 "question": {
-                    "questionId": "644e47d5",
+                    "questionId": "1de26a54",
                     "required": true,
                     "textQuestion": {
                         "paragraph": true
@@ -35,11 +35,11 @@
             }
         },
         {
-            "itemId": "07a8b04d",
+            "itemId": "325ed40c",
             "title": "Last name",
             "questionItem": {
                 "question": {
-                    "questionId": "3d90eb0d",
+                    "questionId": "5aa020a8",
                     "required": true,
                     "textQuestion": {
                         "paragraph": true
@@ -48,11 +48,11 @@
             }
         },
         {
-            "itemId": "6550243f",
+            "itemId": "38d3102a",
             "title": "First name",
             "questionItem": {
                 "question": {
-                    "questionId": "589fafec",
+                    "questionId": "5f4ae4f9",
                     "required": true,
                     "textQuestion": {
                         "paragraph": true
