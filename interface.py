@@ -7,8 +7,7 @@ st.set_page_config(
 
 st.write("Demo Interface v0.0")
 
-#def check_desc():
-    #parse input to llm and return feedback
+
 
 create,results=st.tabs(['Create post','View results'])
 
@@ -21,6 +20,6 @@ with create:
     comp=st.text_input("Enter salary")
 
 
-    review=st.button("Deploty")
+    review=st.button("Deploy")
 
 
