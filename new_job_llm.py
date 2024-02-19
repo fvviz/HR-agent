@@ -26,8 +26,6 @@ class JobDescLLM:
           self.salary = salary
 
           self.llm = ChatOpenAI(model='gpt-4', temperature=0.4, openai_api_key=OPENAI_API_KEY)
-          with open(json_file) as elements_file:
-               self.elements = json.load(elements_file)
 
      def get_chain(self):
           prompt= PromptTemplate(

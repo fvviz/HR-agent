@@ -1,0 +1,64 @@
+{
+    "formId": "1VQCoBY4FnGVbGbfQICfXoWgw4J2y9G0J0v1n8uH3TZE",
+    "info": {
+        "title": "bank manager Application",
+        "description": "Job Title: Bank Manager\n\nJob Location: Bangalore\n\nJob Purpose: As a Bank Manager, you will be responsible for effectively managing and overseeing the daily operations of the bank. You will ensure that the bank operates efficiently and meets its financial goals while providing excellent service to its customers.\n\nEducational Qualifications: The ideal candidate should hold a PhD, MBBS, BTech, or any equivalent degree. A background in finance, business administration, or a related field would be advantageous. \n\nSkill Qualifications: The candidate must possess strong management skills with a proven ability to manage a bank. Excellent leadership and communication skills are essential. The candidate should be able to make sound financial decisions, manage risk, and ensure compliance with banking regulations. \n\nSalary: The successful candidate will receive a competitive salary of 90,000 INR per month.\n\nIn this role, you will be expected to lead and motivate your team, implement strategies to drive business growth, and ensure customer satisfaction. You will also be responsible for maintaining a strong relationship with customers, managing budgets, and ensuring all aspects of the bank's operations are running smoothly. \n\nIf you have the required qualifications and are ready to take on this challenging role, we would like to hear from you.",
+        "documentTitle": "Untitled form"
+    },
+    "revisionId": "00000008",
+    "responderUri": "https://docs.google.com/forms/d/e/1FAIpQLSe61FD8At3mGXb9sBWyDnHuj42xYcGRZHgAGEg3Bcp_NUSgGg/viewform",
+    "items": [
+        {
+            "itemId": "318a6a1b",
+            "title": "CV link(pdf)",
+            "questionItem": {
+                "question": {
+                    "questionId": "1b50ce26",
+                    "required": true,
+                    "textQuestion": {
+                        "paragraph": true
+                    }
+                }
+            }
+        },
+        {
+            "itemId": "2bc89bdf",
+            "title": "Email Address",
+            "questionItem": {
+                "question": {
+                    "questionId": "5c5c0ced",
+                    "required": true,
+                    "textQuestion": {
+                        "paragraph": true
+                    }
+                }
+            }
+        },
+        {
+            "itemId": "0575decd",
+            "title": "Last name",
+            "questionItem": {
+                "question": {
+                    "questionId": "1cc255ae",
+                    "required": true,
+                    "textQuestion": {
+                        "paragraph": true
+                    }
+                }
+            }
+        },
+        {
+            "itemId": "1ddd8f33",
+            "title": "First name",
+            "questionItem": {
+                "question": {
+                    "questionId": "501f10ed",
+                    "required": true,
+                    "textQuestion": {
+                        "paragraph": true
+                    }
+                }
+            }
+        }
+    ]
+}

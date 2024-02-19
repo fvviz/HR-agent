@@ -139,10 +139,11 @@ venv.bak/
 /site
 
 # mypy
+token.json
 .mypy_cache/
 .dmypy.json
 dmypy.json
-
+client_secrets.json
 # Pyre type checker
 .pyre/
 
