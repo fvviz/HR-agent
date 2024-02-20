@@ -21,8 +21,6 @@ service = discovery.build(
     static_discovery=False,
 )
 
-# Prints the responses of your specified form:
-
 json_file = "form_run.json"
 
 with open(json_file, 'r') as f:
@@ -48,10 +46,11 @@ for resp_num, response in enumerate(result['responses']):
   cv_link = cv_link['textAnswers']['answers'][0]['value']
   email = email['textAnswers']['answers'][0]['value']
 
-  print('email:', email)
-
   pdf_down_path = os.path.join('temp', f'cv{resp_num}.pdf')
   gdown.download(cv_link, pdf_down_path, fuzzy=True, quiet=False )
+
+
+
 
 
 

@@ -28,7 +28,6 @@ form_service = discovery.build(
     static_discovery=False,
 )
 
-# Request body for creating a form
 
 def make_form(job_title, description, json_save_path):
     NEW_FORM = {

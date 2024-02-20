@@ -1,13 +1,12 @@
 import os
-from langchain.chains import LLMChain, SequentialChain
-from langchain_openai import OpenAI, ChatOpenAI
+from langchain.chains import LLMChain
+from langchain_openai import ChatOpenAI
 from langchain.prompts import PromptTemplate
 import asyncio
 import json
 import os
 from os.path import join, dirname
 from dotenv import load_dotenv
-from langchain.output_parsers import StructuredOutputParser, ResponseSchema
 
 
 dotenv_path = join(dirname(__file__), '.env')
