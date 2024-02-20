@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/faizrahim/vscode_stuff/autoHR/mlruns/364916413126421743/e246c84c07414d4ab86ec5641f3e5c78/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '364916413126421743'
+lifecycle_stage: active
+run_id: e246c84c07414d4ab86ec5641f3e5c78
+run_name: langchainrun-3I4LQXW
+run_uuid: e246c84c07414d4ab86ec5641f3e5c78
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1708392948870
+status: 1
+tags: []
+user_id: unknown

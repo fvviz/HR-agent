@@ -4,6 +4,7 @@ from oauth2client import client, file, tools
 import gdown
 import json
 import os
+from LLM_tools.cv_llm import CvLLM, read_pdf
 
 SCOPES = "https://www.googleapis.com/auth/forms.responses.readonly"
 DISCOVERY_DOC = "https://forms.googleapis.com/$discovery/rest?version=v1"
@@ -37,17 +38,37 @@ for item in form_data['items']:
     email_qid = item['questionItem']['question']['questionId']
 
 result = service.forms().responses().list(formId=form_id).execute()
+job_title = form_data['info']['title']
+job_description = form_data['info']['description']
 
-for resp_num, response in enumerate(result['responses']):
-  answers = response['answers']
-  cv_link = answers[cv_link_qid]
-  email = answers[email_qid]
 
-  cv_link = cv_link['textAnswers']['answers'][0]['value']
-  email = email['textAnswers']['answers'][0]['value']
 
-  pdf_down_path = os.path.join('temp', f'cv{resp_num}.pdf')
-  gdown.download(cv_link, pdf_down_path, fuzzy=True, quiet=False )
+def get_user_deets():
+  output = []
+  for resp_num, response in enumerate(result['responses']):
+    
+    answers = response['answers']
+    cv_link = answers[cv_link_qid]
+    email = answers[email_qid]
+
+    cv_link = cv_link['textAnswers']['answers'][0]['value']
+    email = email['textAnswers']['answers'][0]['value']
+
+    pdf_down_path = os.path.join('temp', f'cv{resp_num}.pdf')
+    gdown.download(cv_link, pdf_down_path, fuzzy=True, quiet=False )
+
+    pdf_content = read_pdf(pdf_down_path)
+    cvllm = CvLLM(job_title, job_description, pdf_content)
+
+    score = cvllm.get_output()['score']
+
+    out =  [email, int(score)]
+    output.append(out)
+  sorted_list = sorted(output, key=lambda x: x[1], reverse=True)
+  return sorted_list
+
+
+
 
 
 
