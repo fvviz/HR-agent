@@ -1,0 +1,35 @@
+{
+  "action": "on_llm_start",
+  "lc": 1,
+  "type": "constructor",
+  "id": [
+    "langchain",
+    "llms",
+    "openai",
+    "OpenAI"
+  ],
+  "kwargs_model_name": "gpt-3.5-turbo",
+  "kwargs_temperature": 0.0,
+  "kwargs_verbose": true,
+  "kwargs_openai_api_key_lc": 1,
+  "kwargs_openai_api_key_type": "secret",
+  "kwargs_openai_api_key_id": [
+    "OPENAI_API_KEY"
+  ],
+  "step": 3,
+  "starts": 2,
+  "ends": 0,
+  "errors": 0,
+  "text_ctr": 1,
+  "chain_starts": 1,
+  "chain_ends": 0,
+  "llm_starts": 1,
+  "llm_ends": 0,
+  "llm_streams": 0,
+  "tool_starts": 0,
+  "tool_ends": 0,
+  "agent_ends": 0,
+  "retriever_starts": 0,
+  "retriever_ends": 0,
+  "prompt": "You are a playwright. Given the title of play, it is your job to write a synopsis for that title.\nTitle: documentary about good video games that push the boundary of game design\nPlaywright: This is a synopsis for the above play:"
+}

@@ -4,6 +4,7 @@ from LLM_tools.gen_form import make_form
 from mailing import send_email
 from LLM_tools.get_resp import get_user_deets
 import pandas as pd
+import time
 
 st.set_page_config(
     page_title="Demo-Interface v0.0",
@@ -41,8 +42,12 @@ with create:
     review=st.button("Deploy")
     if review: 
         deploy(job_title, job_purpose, ed_qual, skill_qual, loc, comp)
+
 with results:
-    out = st.table(data=get_user_deets())
+    while True:
+        time.sleep(120)
+        print("Invoking process")
+        out = st.table(data=get_user_deets())
 
 
 

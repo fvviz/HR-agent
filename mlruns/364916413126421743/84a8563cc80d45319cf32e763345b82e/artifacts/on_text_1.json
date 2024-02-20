@@ -1,0 +1,19 @@
+{
+  "action": "on_text",
+  "text": "Prompt after formatting:\n\u001b[32;1m\u001b[1;3mYou are a playwright. Given the title of play, it is your job to write a synopsis for that title.\nTitle: documentary about good video games that push the boundary of game design\nPlaywright: This is a synopsis for the above play:\u001b[0m",
+  "step": 2,
+  "starts": 1,
+  "ends": 0,
+  "errors": 0,
+  "text_ctr": 1,
+  "chain_starts": 1,
+  "chain_ends": 0,
+  "llm_starts": 0,
+  "llm_ends": 0,
+  "llm_streams": 0,
+  "tool_starts": 0,
+  "tool_ends": 0,
+  "agent_ends": 0,
+  "retriever_starts": 0,
+  "retriever_ends": 0
+}

@@ -1,0 +1,56 @@
+{
+  "action": "on_chain_start",
+  "lc": 1,
+  "type": "constructor",
+  "id": [
+    "langchain",
+    "chains",
+    "llm",
+    "LLMChain"
+  ],
+  "kwargs_llm_lc": 1,
+  "kwargs_llm_type": "constructor",
+  "kwargs_llm_id": [
+    "langchain",
+    "llms",
+    "openai",
+    "OpenAI"
+  ],
+  "kwargs_llm_kwargs_model_name": "gpt-3.5-turbo",
+  "kwargs_llm_kwargs_temperature": 0.0,
+  "kwargs_llm_kwargs_verbose": true,
+  "kwargs_llm_kwargs_openai_api_key_lc": 1,
+  "kwargs_llm_kwargs_openai_api_key_type": "secret",
+  "kwargs_llm_kwargs_openai_api_key_id": [
+    "OPENAI_API_KEY"
+  ],
+  "kwargs_prompt_lc": 1,
+  "kwargs_prompt_type": "constructor",
+  "kwargs_prompt_id": [
+    "langchain",
+    "prompts",
+    "prompt",
+    "PromptTemplate"
+  ],
+  "kwargs_prompt_kwargs_input_variables": [
+    "title"
+  ],
+  "kwargs_prompt_kwargs_template": "You are a playwright. Given the title of play, it is your job to write a synopsis for that title.\nTitle: {title}\nPlaywright: This is a synopsis for the above play:",
+  "kwargs_prompt_kwargs_template_format": "f-string",
+  "step": 1,
+  "starts": 1,
+  "ends": 0,
+  "errors": 0,
+  "text_ctr": 0,
+  "chain_starts": 1,
+  "chain_ends": 0,
+  "llm_starts": 0,
+  "llm_ends": 0,
+  "llm_streams": 0,
+  "tool_starts": 0,
+  "tool_ends": 0,
+  "agent_ends": 0,
+  "retriever_starts": 0,
+  "retriever_ends": 0,
+  "inputs": "input_list=[{'title': 'documentary about good video games that push the boundary of game design'}]"
+}
